@@ -23,9 +23,11 @@ def generate_launch_description():
 
     # Position and orientation
     # [X, Y, Z]
-    position = [1.5, -3.0, 0.5]
+    #position = [1.5, -3.0, 0.5]     # position for competition
+    position = [0.0, 0.0, 0.5]    # position for autonomous mode
     # [Roll, Pitch, Yaw]
-    orientation = [0.0, 0.0, -1.57]
+    # orientation = [0.0, 0.0, -1.57]     # orientation for competition
+    orientation = [0.0, 0.0, 0.0]     # orientation for autonomous mode
     # Base Name or robot
     robot_base_name = "truck_and_trailer"
     ####### DATA INPUT END ##########

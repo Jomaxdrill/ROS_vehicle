@@ -47,6 +47,8 @@ install(
   PROGRAMS
   launch/robot_description_publisher.py
   src/teleop.py
+  src/autonomous_control.py
+  src/odom_subscriber.py
   DESTINATION lib/${PROJECT_NAME}
   )
 

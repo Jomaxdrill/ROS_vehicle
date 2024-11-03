@@ -21,6 +21,13 @@ def generate_launch_description():
         'empty_world.world'
     )
 
+    # # map for teleop
+    # world = os.path.join(
+    #     get_package_share_directory('project1_pkg'),
+    #     'worlds',
+    #     'competition_arena.world'
+    # )
+
     # Launch Description to run Gazebo Server
     gzserver_cmd = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
