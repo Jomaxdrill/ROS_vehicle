@@ -39,14 +39,14 @@ open new terminal and run:
 To launch the closed loop controller:
 Open new terminal and run:
 
-`ros2 launch project1_pkg autonomous_control.py`
+`ros2 run project1_pkg autonomous_control.py`
 
 The robot will now move from (0,0) to (10, 10) in a straight line
 
 To launch subscriber to monitor robot position:
 Open new terminal and run:
 
-`ros2 launch project1_pkg odom_subscriber.py`
+`ros2 run project1_pkg odom_subscriber.py`
 
 ## Teleop:
 There are two maps for teleop: competition_arena and competition_track. 
@@ -66,7 +66,7 @@ Build and source project1_pkg then launch gazebo with the command:
 
 Open new terminal and run:
 
-`ros2 launch project1_pkg teleop.py`
+`ros2 run project1_pkg teleop.py`
 
 Robot can now be controlled with W, A, S, D with W and S increasing and decreasing velocity 
 respectively and A and D turning the wheel left and right respectively. 
@@ -88,6 +88,6 @@ The competition track can then be ran with the command:
 
 Then open new terminal and run:
 
-`ros2 launch project1_pkg teleop.py`
+`ros2 run project1_pkg teleop.py`
 
 You should now be able to control the robot around the track with W, A, S, D
