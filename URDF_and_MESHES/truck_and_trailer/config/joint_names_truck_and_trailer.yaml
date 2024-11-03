@@ -1,1 +1,0 @@
-controller_joint_names: ['', 'rear_left_wheel_joint', 'rear_right_wheel_joint', 'trailer_n_hitch_joint', 'trailer_front_left_wheel_joint', 'trailer_rear_left_wheel_joint', 'trailer_front_right_wheel_joint', 'trailer_rear_right_wheel_joint', 'front_left_wheel_revolute_joint', 'front_left_wheel_joint', 'front_right_wheel_revolute_joint', 'front_right_wheel_joint', ]
